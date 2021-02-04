@@ -1,0 +1,60 @@
+{{ args.before_widget|raw }}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+<div class="container">
+    <div class="columns">
+        <div class="column is-8">
+            <div class="columns is-multiline">
+                <div class="column is-full">
+                    {{ args.before_title|raw }}{{ instance.title|apply_filters('widget_title') }}{{ args.after_title|raw }}
+                </div>
+                {% for post in posts %}
+                    <div class="column is-full">
+                        <a href="{{ post.link }}">{{ post.title }}</a>
+                        <div class="columns">
+                            <div class="column"><i class="fas fa-map-marker-alt"></i> {{ Term(post.meta('job_location')) }}</div>
+                            <div class="column"><i class="fas fa-clock"></i> time: {{ post.meta('job_time') }}</div>
+                            <div class="column"><i class="fas fa-passport"></i> code: {{ post.meta('job_code') }}</div>
+                            <div class="column"><i class="fas fa-calendar-alt"></i> {{ post.date }}</div>
+                        </div>
+                    </div>
+                {% else %}
+                    <div class="column">
+                        <h2 class="title is-2">No open positions found</h2>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="column is-4">
+            <form  role="search" method="get" id="searchform" action="{{ site.url }}">
+                <div class="field has-addons">
+                    <p class="control has-icons-left">
+                        <input class="input" type="search" placeholder="Search" name="s">
+                        <span class="icon is-small is-left"><i class="fas fa-search"></i></span>
+                    </p>
+                    <div class="control">
+                        <button type="submit" class="button is-info">Search</button>
+                    </div>
+                </div>
+                <input type="hidden" value="job" name="post_type" />
+            </form>
+            <aside class="menu">
+                <p class="menu-label">Locations</p>
+                <ul class="menu-list">
+                    {% for term in locations %}
+                        <li><a href="{{ term.link }}">{{ term.title }} ({{ term.count }})</a></li>
+                    {% endfor %}
+                </ul>
+                <p class="menu-label">Departments</p>
+                <ul class="menu-list">
+                    {% for term in departments %}
+                        <li><a href="{{ term.link }}">{{ term.title }} ({{ term.count }})</a></li>
+                    {% endfor %}
+                </ul>
+            </aside>
+        </div>
+    </div>
+</div>
+
+{{ args.after_widget|raw }}

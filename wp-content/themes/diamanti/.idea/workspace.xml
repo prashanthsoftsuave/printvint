@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9ac622b-97a9-4f21-ab49-a6f44d20fba5" name="Default" comment="field group update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/double-arrows.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/highlighted-list-style.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/sort-arrows-couple-pointing-up-and-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/customizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/customizer.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/ajax-loader_c5cd7f53.gif" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/ajax-loader_c5cd7f53.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/fontawesome-webfont_912ec66d.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/fontawesome-webfont_912ec66d.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/styles/components/_resources.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/styles/components/_resources.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DrupalConfiguration">
+    <drupalPath />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="diamanti" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JoomlaConfiguration">
+    <joomlaConfigPath />
+    <joomlaPath />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/brain/hierarchy" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/console" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/view" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/config" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/soberwp/controller" />
+      <path value="$PROJECT_DIR$/vendor/hassankhan/config" />
+      <path value="$PROJECT_DIR$/vendor/roots/sage-installer" />
+      <path value="$PROJECT_DIR$/vendor/roots/sage-lib" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/container" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1Phu80AalNXsQJoiMYwBAEZUhjK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="content.blade&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/partials/content.blade.php&#10;var&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/styles/common/_variables.scss&#10;global&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/styles/common/_global.scss&#10;diamanti&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/app/diamanti.php&#10;header.sc&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/styles/layouts/_header.scss&#10;menu&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/partials/menu.blade.php&#10;header.bla&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/partials/header.blade.php&#10;common&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/scripts/routes/common.js&#10;varia&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/styles/common/_variables.scss&#10;forms&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/styles/components/_forms.scss&#10;header&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/styles/layouts/_header.scss&#10;menu.bla&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/partials/menu.blade.php&#10;main.js&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/scripts/main.js&#10;front-page&#9;FILE&#9;file:///Users/jrcreative/LocalSites/10fold/app/public/wp-content/themes/10fold/resources/views/front-page.blade.php&#10;event&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/app/controllers/archiveEvent.php&#10;content-event&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/partials/content-event.blade.php&#10;app.php&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/app/controllers/app.php&#10;common.js&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/scripts/routes/common.js&#10;home.js&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/scripts/routes/home.js&#10;main.sc&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/styles/main.scss&#10;header.scs&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/styles/layouts/_header.scss&#10;Section&#9;null&#9;null&#10;section.blad&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/blocks/section.blade.php&#10;_button&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/styles/components/_buttons.scss&#10;_var&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/styles/common/_variables.scss&#10;diaman&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/app/diamanti.php&#10;front-page.b&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/front-page.blade.php&#10;single&#9;null&#9;null&#10;index&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/index.blade.php&#10;post&#9;null&#9;null&#10;story&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/styles/components/_story.scss&#10;diamanti.php&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/app/diamanti.php&#10;archivenew&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/app/controllers/archiveNews.php&#10;archive&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/archive-news.blade.php&#10;diam&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/app/diamanti.php&#10;content-&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/partials/content-resource.blade.php&#10;content-news&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/partials/content-news.blade.php&#10;button&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/styles/components/_buttons.scss&#10;form&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/styles/components/_forms.scss&#10;archive-res&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/archive-resource.blade.php&#10;pagination&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/partials/pagination.blade.php&#10;content.bla&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/partials/content.blade.php&#10;resource&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/partials/content-resource.blade.php&#10;index.&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/index.blade.php&#10;globa&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/assets/styles/common/_global.scss&#10;event blade&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/archive-event.blade.php&#10;archiveR&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/app/controllers/archiveResource.php&#10;hero&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/app/controllers/partials/Hero.php&#10;news.bl&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/resources/views/partials/content-news.blade.php&#10;news&#9;FILE&#9;file:///Users/jrcreative/LocalSites/diamanti/app/public/wp-content/themes/diamanti/app/controllers/archiveNews.php" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/partials" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/partials" />
+      <recent name="$PROJECT_DIR$/resources/search-filter" />
+      <recent name="$PROJECT_DIR$/app/controllers/partials" />
+      <recent name="$PROJECT_DIR$/app/cpts" />
+      <recent name="$PROJECT_DIR$/resources/views/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/assets/scripts/util" />
+      <recent name="$PROJECT_DIR$/resources/assets/images" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/../../.." />
+      <recent name="$PROJECT_DIR$/app/controllers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build:production" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:production" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="rmdist" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="rmdist" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.build:production" />
+      <item itemvalue="npm.rmdist" />
+      <item itemvalue="npm.start" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build:production" />
+        <item itemvalue="npm.rmdist" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9ac622b-97a9-4f21-ab49-a6f44d20fba5" name="Default" comment="" />
+      <created>1517546307347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517546307347</updated>
+      <workItem from="1517546309180" duration="6108000" />
+      <workItem from="1517589592755" duration="1019000" />
+      <workItem from="1517876288751" duration="3123000" />
+      <workItem from="1517942741060" duration="7724000" />
+      <workItem from="1518215506266" duration="6573000" />
+      <workItem from="1518454660666" duration="1097000" />
+      <workItem from="1519167351780" duration="11846000" />
+      <workItem from="1519664642072" duration="68308000" />
+      <workItem from="1520806240828" duration="15277000" />
+      <workItem from="1520910551843" duration="28795000" />
+      <workItem from="1521298302896" duration="39491000" />
+      <workItem from="1522072355745" duration="21533000" />
+      <workItem from="1522256884132" duration="777000" />
+      <workItem from="1522272938053" duration="36720000" />
+      <workItem from="1522504019996" duration="40896000" />
+      <workItem from="1522694488502" duration="1618000" />
+      <workItem from="1522725907459" duration="4531000" />
+      <workItem from="1523050199606" duration="4365000" />
+      <workItem from="1523304644035" duration="591000" />
+      <workItem from="1523305834725" duration="635000" />
+      <workItem from="1523508181826" duration="861000" />
+      <workItem from="1523509856867" duration="11729000" />
+      <workItem from="1524862074989" duration="3675000" />
+      <workItem from="1526054524063" duration="10307000" />
+      <workItem from="1527092865961" duration="426000" />
+      <workItem from="1527218641856" duration="18128000" />
+      <workItem from="1528080529709" duration="29418000" />
+      <workItem from="1528665916181" duration="4420000" />
+      <workItem from="1528734740962" duration="101000" />
+      <workItem from="1528735943737" duration="12934000" />
+      <workItem from="1529283997675" duration="5035000" />
+      <workItem from="1529958731342" duration="12052000" />
+      <workItem from="1530550521751" duration="11780000" />
+      <workItem from="1532381945899" duration="324000" />
+      <workItem from="1532382290680" duration="915000" />
+      <workItem from="1532438201458" duration="5648000" />
+      <workItem from="1532816394747" duration="596000" />
+      <workItem from="1532874750064" duration="3054000" />
+      <workItem from="1533049071627" duration="592000" />
+      <workItem from="1533273181223" duration="594000" />
+      <workItem from="1533668627252" duration="265000" />
+      <workItem from="1533677105147" duration="3604000" />
+      <workItem from="1533939938307" duration="528000" />
+      <workItem from="1534178610529" duration="1144000" />
+      <workItem from="1534478904825" duration="2524000" />
+      <workItem from="1534882890639" duration="1287000" />
+      <workItem from="1534886132661" duration="1406000" />
+      <workItem from="1536869992474" duration="1385000" />
+      <workItem from="1538431488905" duration="5935000" />
+      <workItem from="1538683156708" duration="3024000" />
+      <workItem from="1539381502540" duration="6842000" />
+      <workItem from="1539568813752" duration="3716000" />
+      <workItem from="1540227248655" duration="204000" />
+      <workItem from="1540315564480" duration="1582000" />
+      <workItem from="1540403650611" duration="727000" />
+      <workItem from="1540406456366" duration="649000" />
+      <workItem from="1540733606633" duration="188000" />
+      <workItem from="1540833559734" duration="3482000" />
+      <workItem from="1541518574070" duration="289000" />
+      <workItem from="1542749244286" duration="8773000" />
+      <workItem from="1544479106289" duration="760000" />
+      <workItem from="1544801759212" duration="596000" />
+      <workItem from="1544976906260" duration="1850000" />
+      <workItem from="1545253789392" duration="746000" />
+      <workItem from="1545516030256" duration="489000" />
+      <workItem from="1546470126965" duration="1642000" />
+      <workItem from="1546743217308" duration="290000" />
+      <workItem from="1550277878666" duration="3129000" />
+      <workItem from="1551671886795" duration="609000" />
+      <workItem from="1553116488097" duration="4069000" />
+      <workItem from="1553199895489" duration="3626000" />
+      <workItem from="1555612624431" duration="5070000" />
+      <workItem from="1557154169770" duration="434000" />
+      <workItem from="1557777104514" duration="1442000" />
+      <workItem from="1558060079157" duration="529000" />
+      <workItem from="1558369936719" duration="1896000" />
+      <workItem from="1558461672163" duration="4604000" />
+      <workItem from="1560697334983" duration="207000" />
+      <workItem from="1561767942042" duration="61000" />
+      <workItem from="1566338491112" duration="8569000" />
+      <workItem from="1567528290272" duration="289000" />
+      <workItem from="1568126837915" duration="4710000" />
+      <workItem from="1569359208748" duration="193000" />
+      <workItem from="1569514168193" duration="681000" />
+      <workItem from="1570130314047" duration="450000" />
+      <workItem from="1570564003490" duration="12862000" />
+      <workItem from="1571252768357" duration="162000" />
+      <workItem from="1571269611327" duration="285000" />
+      <workItem from="1571325087237" duration="4044000" />
+      <workItem from="1571585414026" duration="7821000" />
+      <workItem from="1572532990781" duration="1297000" />
+      <workItem from="1572920600635" duration="2064000" />
+      <workItem from="1572930642711" duration="761000" />
+      <workItem from="1573192151989" duration="51000" />
+      <workItem from="1574047460402" duration="7798000" />
+      <workItem from="1574439152965" duration="1310000" />
+      <workItem from="1574833143642" duration="725000" />
+      <workItem from="1575039742745" duration="135000" />
+      <workItem from="1575329741292" duration="5738000" />
+      <workItem from="1575390096964" duration="4592000" />
+      <workItem from="1575669807133" duration="3924000" />
+      <workItem from="1576082078817" duration="1103000" />
+      <workItem from="1576267205847" duration="512000" />
+      <workItem from="1576541997244" duration="10257000" />
+      <workItem from="1577111242285" duration="503000" />
+      <workItem from="1577457213550" duration="383000" />
+      <workItem from="1577511277677" duration="5617000" />
+      <workItem from="1578872813366" duration="545000" />
+      <workItem from="1579066860912" duration="533000" />
+      <workItem from="1580406595757" duration="1365000" />
+      <workItem from="1581608465170" duration="598000" />
+      <workItem from="1581797650362" duration="3432000" />
+      <workItem from="1582659297675" duration="2515000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Inspections" timestamp="1582766982791">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Inspections/0.0.1440.900/-483.-1417.2560.1355@0.0.1440.900" timestamp="1582766982791" />
+    <state width="1398" height="270" key="GridCell.Tab.0.bottom" timestamp="1582769278050">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.0.1440.900/-483.-1440.2560.1440@0.0.1440.900" timestamp="1582769278050" />
+    <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-365.3440.1440@0.0.1440.900" timestamp="1582064921858" />
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1576604369627" />
+    <state width="1678" height="420" key="GridCell.Tab.0.bottom/0.23.1440.836/1440.-342.3440.1417@1440.-342.3440.1417" timestamp="1576782122250" />
+    <state width="1678" height="420" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-342.3440.1337@1440.-342.3440.1337" timestamp="1576608767705" />
+    <state width="1678" height="420" key="GridCell.Tab.0.bottom/0.23.2560.1348@0.23.2560.1348" timestamp="1577457324746" />
+    <state width="1398" height="270" key="GridCell.Tab.0.center" timestamp="1582769278048">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="270" key="GridCell.Tab.0.center/0.0.1440.900/-483.-1440.2560.1440@0.0.1440.900" timestamp="1582769278048" />
+    <state width="1398" height="270" key="GridCell.Tab.0.center/0.0.1440.900/1440.-365.3440.1440@0.0.1440.900" timestamp="1582064921857" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1576604369626" />
+    <state width="1678" height="420" key="GridCell.Tab.0.center/0.23.1440.836/1440.-342.3440.1417@1440.-342.3440.1417" timestamp="1576782122249" />
+    <state width="1678" height="420" key="GridCell.Tab.0.center/0.23.1440.877/1440.-342.3440.1337@1440.-342.3440.1337" timestamp="1576608767705" />
+    <state width="1678" height="420" key="GridCell.Tab.0.center/0.23.2560.1348@0.23.2560.1348" timestamp="1577457324745" />
+    <state width="1398" height="270" key="GridCell.Tab.0.left" timestamp="1582769278047">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="270" key="GridCell.Tab.0.left/0.0.1440.900/-483.-1440.2560.1440@0.0.1440.900" timestamp="1582769278047" />
+    <state width="1398" height="270" key="GridCell.Tab.0.left/0.0.1440.900/1440.-365.3440.1440@0.0.1440.900" timestamp="1582064921856" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1576604369626" />
+    <state width="1678" height="420" key="GridCell.Tab.0.left/0.23.1440.836/1440.-342.3440.1417@1440.-342.3440.1417" timestamp="1576782122247" />
+    <state width="1678" height="420" key="GridCell.Tab.0.left/0.23.1440.877/1440.-342.3440.1337@1440.-342.3440.1337" timestamp="1576608767704" />
+    <state width="1678" height="420" key="GridCell.Tab.0.left/0.23.2560.1348@0.23.2560.1348" timestamp="1577457324744" />
+    <state width="1398" height="270" key="GridCell.Tab.0.right" timestamp="1582769278048">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="270" key="GridCell.Tab.0.right/0.0.1440.900/-483.-1440.2560.1440@0.0.1440.900" timestamp="1582769278048" />
+    <state width="1398" height="270" key="GridCell.Tab.0.right/0.0.1440.900/1440.-365.3440.1440@0.0.1440.900" timestamp="1582064921857" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1576604369627" />
+    <state width="1678" height="420" key="GridCell.Tab.0.right/0.23.1440.836/1440.-342.3440.1417@1440.-342.3440.1417" timestamp="1576782122250" />
+    <state width="1678" height="420" key="GridCell.Tab.0.right/0.23.1440.877/1440.-342.3440.1337@1440.-342.3440.1337" timestamp="1576608767705" />
+    <state width="1678" height="420" key="GridCell.Tab.0.right/0.23.2560.1348@0.23.2560.1348" timestamp="1577457324745" />
+    <state x="385" y="173" width="671" height="729" key="search.everywhere.popup" timestamp="1582769747410">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="173" width="671" height="729" key="search.everywhere.popup/0.0.1440.900/-483.-1417.2560.1355@0.0.1440.900" timestamp="1582766950257" />
+    <state x="385" y="173" width="671" height="729" key="search.everywhere.popup/0.0.1440.900/-483.-1440.2560.1440@0.0.1440.900" timestamp="1582769747410" />
+    <state x="385" y="173" width="671" height="729" key="search.everywhere.popup/0.0.1440.900/1440.-365.3440.1440@0.0.1440.900" timestamp="1582064874627" />
+    <state x="385" y="182" width="671" height="675" key="search.everywhere.popup/0.23.1440.833@0.23.1440.833" timestamp="1576564598573" />
+    <state x="385" y="183" width="671" height="675" key="search.everywhere.popup/0.23.1440.834/-483.-1417.2560.1417@0.23.1440.834" timestamp="1580948637504" />
+    <state x="385" y="183" width="670" height="676" key="search.everywhere.popup/0.23.1440.836@0.23.1440.836" timestamp="1575409928170" />
+    <state x="2360" y="-71" width="1601" height="1146" key="search.everywhere.popup/0.23.1440.838/1440.-342.3440.1417@1440.-342.3440.1417" timestamp="1575578918869" />
+    <state x="2360" y="-86" width="1601" height="1082" key="search.everywhere.popup/0.23.1440.877/1440.-342.3440.1337@1440.-342.3440.1337" timestamp="1576626779900" />
+    <state x="685" y="281" width="1192" height="1091" key="search.everywhere.popup/0.23.2560.1348@0.23.2560.1348" timestamp="1577457281924" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>$PROJECT_DIR$/../../..</wordpressPath>
+  </component>
+</project>

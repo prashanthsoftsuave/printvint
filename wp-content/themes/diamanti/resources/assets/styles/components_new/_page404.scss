@@ -1,0 +1,67 @@
+.page404 {
+  padding: 131px 0 25px;
+  background: linear-gradient(336.06deg, theme-color("extra-light-blue") 27.35%, $color-link 63.47%);
+
+  @include media-breakpoint-up('lg') {
+    padding: 101px 0 115px;
+  }
+
+  .container {
+    text-align: center;
+  }
+}
+
+.page404__icon {
+  display: inline-block;
+  width: 58px;
+  height: 48px;
+  background-image: url("../images/page-404-icon.svg");
+  background-size: cover;
+
+  @include media-breakpoint-up('lg') {
+    width: 65px;
+    height: 54px;
+  }
+}
+
+.page404__title {
+  margin: 36px 0 45px;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: 3px;
+  color: theme-color("white");
+
+  @include media-breakpoint-up('lg') {
+    margin: 45px 0 55px;
+    font-size: 100px;
+  }
+}
+
+.page404__subtitle {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: theme-color("white");
+
+  @include media-breakpoint-up('lg') {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 1px;
+  }
+}
+
+.page404__desc {
+  padding: 8px 20px 38px;
+  font-weight: 700 !important;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.75px;
+  color: theme-color("white");
+
+  @include media-breakpoint-up('lg') {
+    padding: 17px 0 55px;
+  }
+}

@@ -1,0 +1,33 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+@media (max-width:990px){
+#spektraData .newHero__title {
+    letter-spacing: normal;
+}
+/* #spektraData a.newHero__button.btn.btn-action {
+    width: 100%;
+    left: unset;
+    margin-left: auto;
+}
+#spektraData a.newHero__button.btn.btn-action.contact-Sales{
+    width: 100%;
+    left: unset;
+    margin-left: auto;
+} */
+
+
+
+
+}</style>
+<!-- end Simple Custom CSS and JS -->

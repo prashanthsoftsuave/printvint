@@ -1,0 +1,689 @@
+{
+    "key": "group_595ed5e1a37e0",
+    "title": "Theme Options",
+    "fields": [
+        {
+            "key": "field_59601ac90e192",
+            "label": "Social",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_59601ade0e193",
+            "label": "Facebook",
+            "name": "facebook",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59601af30e194",
+            "label": "Twitter",
+            "name": "twitter",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59601b040e195",
+            "label": "Linked In",
+            "name": "linked_in",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5a625f8228970",
+            "label": "Footer",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5a625f9128971",
+            "label": "Company Name",
+            "name": "company_name",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a625fa028972",
+            "label": "Phone Number",
+            "name": "phone_number",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "1.888.995.0290",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a625fa928973",
+            "label": "Address",
+            "name": "address",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5a79ed717987f",
+            "label": "Get Directions Page",
+            "name": "get_directions_page",
+            "type": "page_link",
+            "instructions": "The link to the Get Directions Page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": [],
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_5a79edc379880",
+            "label": "Privacy Policy\/Terms and Conditions Page",
+            "name": "privacy_policy_page",
+            "type": "page_link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": [],
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_5ed8ae194fb1a",
+            "label": "Legal Page",
+            "name": "legal_page",
+            "type": "page_link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_5a79ee3ea935f",
+            "label": "Menu",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5a79ee4ba9360",
+            "label": "Form Title",
+            "name": "form_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a79ee5fa9361",
+            "label": "Form Description",
+            "name": "form_description",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a79ee68a9362",
+            "label": "Form",
+            "name": "select_a_form",
+            "type": "select",
+            "instructions": "Choose the form that will display when the menu is opened.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "33": "451 Research Impact Report",
+                "28": "Beta Request Secondary Form",
+                "27": "Beta Request Spektra",
+                "15": "Bootcamp Locations",
+                "1": "Contact Us",
+                "12": "Customer Referral",
+                "29": "Dell CAM Request",
+                "30": "Dell Quote Request",
+                "24": "Demo Request - HCI Challenge",
+                "26": "Demo Request - MS SQL Challenge",
+                "25": "Demo Request - Partner Solutions",
+                "31": "DevOps Days Road Show CDW",
+                "32": "DevOps Days Road Show CDW Dallas",
+                "35": "DevOps Days Road Show CDW Houston",
+                "40": "Diamanti Virtual Launch 20.4.15",
+                "39": "EMEA Launch 20.4.9",
+                "14": "Field Events - Meet Ups",
+                "34": "Gartner: How I&O Can Properly Deliver Kubernetes Support",
+                "2": "Newsletter",
+                "38": "P1 and Diamanti Workshop Santa Monica",
+                "3": "Request a Demo",
+                "4": "Request a Demo MENU",
+                "37": "TAP Registration Form",
+                "10": "Webinar - 451 Group 18.7.18",
+                "8": "Webinar - NeuVector 18.6.7",
+                "11": "Website - (3rd Party MKT) Asset Download 451 Research",
+                "9": "Website - (3rd Party MKT) Asset Download Gartner",
+                "7": "Website - (D10 Content) Asset Download",
+                "21": "Website - (House DB)Asset Download Gartner 2019 WP (modified)",
+                "23": "Website - Aqua webinar Form 19.6.6",
+                "20": "Website - Asset Download Gartner 2019 WP",
+                "18": "Website - Customer Referral Form",
+                "17": "Website - D10 Gated Asset Build Enterprise Kubernetes Infrastructure",
+                "16": "Website - D10 Gated Asset Choose Container Infrastructure",
+                "19": "Website - D10 Gated Asset ESG Bare-metal Container Platform",
+                "13": "Website - D10 Gated Asset VMs Vs Bare Metal",
+                "22": "Website - GDPR Page",
+                "6": "Website Field Events"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5a79ef2413659",
+            "label": "Support Email",
+            "name": "support_email",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5aac0816de30d",
+            "label": "Newsletter",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5aac0820de30e",
+            "label": "Newsletter CTA",
+            "name": "newsletter_cta",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5aac0837de30f",
+            "label": "Newsletter Form",
+            "name": "newsletter_form",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "33": "451 Research Impact Report",
+                "28": "Beta Request Secondary Form",
+                "27": "Beta Request Spektra",
+                "15": "Bootcamp Locations",
+                "1": "Contact Us",
+                "12": "Customer Referral",
+                "29": "Dell CAM Request",
+                "30": "Dell Quote Request",
+                "24": "Demo Request - HCI Challenge",
+                "26": "Demo Request - MS SQL Challenge",
+                "25": "Demo Request - Partner Solutions",
+                "31": "DevOps Days Road Show CDW",
+                "32": "DevOps Days Road Show CDW Dallas",
+                "35": "DevOps Days Road Show CDW Houston",
+                "40": "Diamanti Virtual Launch 20.4.15",
+                "39": "EMEA Launch 20.4.9",
+                "14": "Field Events - Meet Ups",
+                "34": "Gartner: How I&O Can Properly Deliver Kubernetes Support",
+                "2": "Newsletter",
+                "38": "P1 and Diamanti Workshop Santa Monica",
+                "3": "Request a Demo",
+                "4": "Request a Demo MENU",
+                "37": "TAP Registration Form",
+                "10": "Webinar - 451 Group 18.7.18",
+                "8": "Webinar - NeuVector 18.6.7",
+                "11": "Website - (3rd Party MKT) Asset Download 451 Research",
+                "9": "Website - (3rd Party MKT) Asset Download Gartner",
+                "7": "Website - (D10 Content) Asset Download",
+                "21": "Website - (House DB)Asset Download Gartner 2019 WP (modified)",
+                "23": "Website - Aqua webinar Form 19.6.6",
+                "20": "Website - Asset Download Gartner 2019 WP",
+                "18": "Website - Customer Referral Form",
+                "17": "Website - D10 Gated Asset Build Enterprise Kubernetes Infrastructure",
+                "16": "Website - D10 Gated Asset Choose Container Infrastructure",
+                "19": "Website - D10 Gated Asset ESG Bare-metal Container Platform",
+                "13": "Website - D10 Gated Asset VMs Vs Bare Metal",
+                "22": "Website - GDPR Page",
+                "6": "Website Field Events"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ab9d85c00a0f",
+            "label": "Article Sidebar Widget",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ab9dbcefdc28",
+            "label": "Article Sidebar Widget",
+            "name": "article_sidebar_widget",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_5ab9dae17ec8b"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_5de591087ce36",
+            "label": "Footer CTA",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5de592f9cd83b",
+            "label": "Default CTA Card Content",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Add the default CTA Card contents here. They will show up at the bottom of each page unless it's been hidden or overridden on a per-page basis.",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5de5911b7ce37",
+            "label": "CTA 1",
+            "name": "cta_1",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5de592443cf35",
+                    "label": "CTA 1",
+                    "name": "cta_1",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_5de59166b1c3d"
+                    ],
+                    "display": "seamless",
+                    "layout": "",
+                    "prefix_label": 0,
+                    "prefix_name": 1
+                }
+            ]
+        },
+        {
+            "key": "field_5de592713cf36",
+            "label": "CTA 2",
+            "name": "cta_2",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5de592713cf37",
+                    "label": "CTA 2",
+                    "name": "cta_2",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_5de59166b1c3d"
+                    ],
+                    "display": "seamless",
+                    "layout": "",
+                    "prefix_label": 0,
+                    "prefix_name": 1
+                }
+            ]
+        },
+        {
+            "key": "field_5de592763cf38",
+            "label": "CTA 3",
+            "name": "cta_3",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5de592763cf39",
+                    "label": "CTA 3",
+                    "name": "cta_3",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_5de59166b1c3d"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 1
+                }
+            ]
+        },
+        {
+            "key": "field_5e88ce0a2df37",
+            "label": "Header CTA",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5e88ce392df38",
+            "label": "Text",
+            "name": "header_cta_text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e88ce3f2df39",
+            "label": "Link",
+            "name": "header_cta_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-theme-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "metabox_title": "",
+    "modified": 1591260432
+}

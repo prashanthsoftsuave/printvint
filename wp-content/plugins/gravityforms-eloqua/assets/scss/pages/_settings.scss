@@ -1,0 +1,166 @@
+/**
+ * Settings Styles
+ */
+body #tab_gravityformseloqua {
+	position: relative;
+
+	table.gforms_form_settings {
+		th {
+			min-width: 120px;
+		}
+		#gaddon-setting-row-gfeloqua_extensions th {
+			min-width: 0;
+			width: 0;
+			padding: 0;
+		}
+	}
+
+	table.settings-field-map-table tbody tr td:first-of-type {
+		min-width: 140px;
+	}
+
+	input#gform-settings-save.button-primary.gfbutton {
+		font-size: 1.15em !important;
+		line-height: 2 !important;
+		padding: 5px 20px;
+	}
+}
+
+.gfeloqua-connection-test-result {
+	display: inline-block;
+	line-height: 2;
+	margin-left: 10px;
+	&.success {
+		color: #53BA4F;
+	}
+	&.failed {
+		color: #ca192d;
+	}
+}
+
+.gfeloqua-settings-fields {
+	padding: 25px 0;
+
+	div.error {
+		padding: 10px;
+		margin: 5px 15px 15px 0;
+	}
+
+	.setting-row {
+		display: flex;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #E8E8E8;
+
+		&:last-of-type {
+			border-bottom: 0;
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+
+		& > label {
+			display: block;
+			width: 220px;
+		}
+		& > span {
+			display: block;
+			width: calc( 100% - 220px );
+		}
+	}
+
+	.gfeloqua-stored-license {
+		font-style: italic;
+	}
+}
+
+
+.gfeloqua-last-auth-date {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+#gfeloqua-uninstall-addon {
+	& > .hr-divider {
+		display: none;
+	}
+
+	& > h3 {
+		cursor: pointer;
+		font-size: 1.35em;
+		position: absolute;
+		bottom: 20px;
+		right: 10px;
+		opacity: 0.45;
+		max-width: 90px;
+		white-space: nowrap;
+		overflow: hidden;
+		margin: 0;
+		transition: max-width 400ms ease-in-out;
+
+		&:hover {
+			opacity: 1;
+			max-width: 100%;
+		}
+	}
+}
+
+#gfeloqua_advanced-toggle {
+	position: relative;
+	background-color: rgba( 255, 255, 255, 0.35 );
+	padding: 20px 15px;
+	border: 1px solid #E6E6E6;
+
+	& > h4.gf_settings_subgroup_title {
+		font-size: 1.25em;
+		border-bottom: 0;
+		margin: 0;
+		padding: 0;
+		transition: all 200ms ease-in-out;
+	}
+
+	&.open > h4.gf_settings_subgroup_title {
+		padding-bottom: 15px;
+		margin-bottom: 5px;
+	}
+
+	& > table,
+	& > table td,
+	& > table th {
+		height: 0;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+	}
+}
+
+.wp-core-ui .gfeloqua-advanced-toggle.button {
+	position: absolute;
+	top: 18px;
+	left: 175px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 11px;
+	border-radius: 3px;
+	background-color: #E6E6E6;
+	padding: 3px 5px;
+	border: 1px solid #DDD;
+	min-height: 24px;
+	line-height: 1.5;
+}
+
+.gaddon-section.gfeloqua-is-advanced-setting {
+	transition: all 200ms ease-in-out;
+	visibility: hidden;
+	max-height: 0;
+	opacity: 0;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+
+	&.visible {
+		max-height: 100%;
+		opacity: 1;
+		visibility: visible;
+		margin: 0 0 20px;
+		overflow: visible;
+	}
+}

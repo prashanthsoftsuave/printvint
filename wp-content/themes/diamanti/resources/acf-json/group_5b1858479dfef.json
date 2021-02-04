@@ -1,0 +1,40 @@
+{
+    "key": "group_5b1858479dfef",
+    "title": "CPT: News",
+    "fields": [
+        {
+            "key": "field_5b18584f10ea5",
+            "label": "News Link",
+            "name": "news_link",
+            "type": "link",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "news"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "metabox_title": "News Meta",
+    "modified": 1528322250
+}

@@ -1,0 +1,30 @@
+.carrers-feature {
+  display: flex;
+  flex-direction: column;
+
+  @include media-breakpoint-up('lg') {
+    flex-direction: row;
+  }
+}
+
+.carrers-feature__item {
+  width: 100%;
+
+  @include media-breakpoint-up('lg') {
+    width: 33.33%;
+  }
+}
+
+.carrers-benefits {
+  img {
+    min-width: 60px;
+  }
+}
+
+.carrers-feature__item {
+  margin: 0 0 15px;
+
+  @include media-breakpoint-up('lg') {
+    margin-right: 15px;
+  }
+}

@@ -1,0 +1,85 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+{% set has_sidebar = false %}
+{% if (post.meta('job_company_logo') or post.meta('job_company_name') or post.meta('job_company_about')) and job_boards_other_companies %}
+    {% set has_sidebar = true %}
+{% endif %}
+
+<div class="container">
+    <div class="columns">
+        <div class="column {% if has_sidebar %}is-8{% endif %}">
+            <div class="content">
+                <h1 class="title is-1">{{ post.title }}</h1>
+                <div class="columns">
+                    <div class="column"><i class="fas fa-clock"></i> time: {{ post.meta('job_time') }}</div>
+                    <div class="column"><i class="fas fa-passport"></i> code: {{ post.meta('job_code') }}</div>
+                    <div class="column"><i class="fas fa-building"></i> department: {{ Term(post.meta('job_department')) }}</div>
+                    <div class="column"><i class="fas fa-map-marker-alt"></i> {{ Term(post.meta('job_location')) }}</div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <h2 class="title is-2">Job Details</h2>
+                        {{ post.meta('job_description') }}
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        {% if not sidebar %}
+                            {% if job_boards_other_companies %}
+                                {% if post.meta('job_company_logo') %}
+                                    {% set logo = Image(post.meta('job_company_logo')) %}
+                                    <img src="{{ logo.src }}" alt="{{ logo.alt }}">
+                                {% endif %}
+                                {% if post.meta('job_company_name') %}
+                                    <h4 class="title is-4">About {{ post.meta('job_company_name') }}</h4>
+                                {% endif %}
+                                {% if post.meta('job_company_about') %}
+                                    {{ post.meta('job_company_about') }}
+                                {% endif %}
+                            {% else %}
+                                {% if job_boards_job_company_logo %}
+                                    {% set logo = Image(job_boards_job_company_logo) %}
+                                    <img src="{{ logo.src }}" alt="{{ logo.alt }}">
+                                {% endif %}
+                                {% if job_boards_job_company_name %}
+                                    <h4 class="title is-4">About {{ job_company_name }}</h4>
+                                {% endif %}
+                                {% if job_boards_job_company_about %}
+                                    {{ job_boards_job_company_about }}
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% if has_sidebar %}
+            <div class="column is-4">
+                <div class="content">
+                    {% if post.meta('job_company_logo') %}
+                        {% set logo = Image(post.meta('job_company_logo')) %}
+                        <img src="{{ logo.src }}" alt="{{ logo.alt }}">
+                    {% endif %}
+                    {% if post.meta('job_company_name') %}
+                        <h4 class="title is-4">About {{ post.meta('job_company_name') }}</h4>
+                    {% endif %}
+                    {% if post.meta('job_company_about') %}
+                        {{ post.meta('job_company_about') }}
+                    {% endif %}
+                </div>
+            </div>
+        {% endif %}
+    </div>
+    {% if post.meta('job_application_form') %}
+        <div class="columns">
+            <div class="column">
+                <div class="content">
+                    {% filter shortcodes %}
+                        [gravityform id={{ post.meta('job_application_form').value }} title=false description=false ajax=false tabindex=49]
+                    {% endfilter %}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+</div>

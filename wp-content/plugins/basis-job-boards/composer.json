@@ -1,0 +1,20 @@
+{
+    "name": "indevver/basis-job-boards",
+    "license": "MIT",
+    "optimize-autoloader": true,
+    "classmap-authoritative": true,
+    "authors": [
+        {
+            "name": "Robert Parker",
+            "email": "robert@indevver.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Basis\\JobBoard\\": "src/"}
+    },
+    "require": {
+        "php": ">=7.1",
+        "stoutlogic/acf-builder": "^1.8",
+        "timber/timber": "^1.10"
+    }
+}

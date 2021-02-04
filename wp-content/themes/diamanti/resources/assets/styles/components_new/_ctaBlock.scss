@@ -1,0 +1,47 @@
+$sectionOverlap: 430px;
+
+.ctaBlock {
+  background-color: #2b2b2b;
+  padding: 80px 0 15px;
+  text-align: center;
+
+  @include media-breakpoint-up('lg') {
+    padding: 98px 0 75px;
+  }
+}
+
+.ctaBlock--withSectionOverlap {
+  padding: $sectionOverlap + 95px 0 95px;
+  margin-top: -1 * $sectionOverlap;
+}
+
+.ctaBlock__container {
+  @extend .container;
+}
+
+.ctaBlock__title {
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.28;
+  letter-spacing: 0;
+  text-align: center;
+  color: theme-color("white");
+
+  @include media-breakpoint-up('lg') {
+    font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+}
+
+.ctaBlock__button {
+  margin: 75px auto 15px;
+
+  @include media-breakpoint-up('lg') {
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+}

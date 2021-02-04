@@ -1,0 +1,148 @@
+.technologyList {
+  background-color: theme-color("dark-background");
+  padding: 20px 0;
+  position: relative;
+  z-index: 4;
+
+  @include media-breakpoint-up('lg') {
+    padding: 130px 0 80px;
+    box-shadow: 0 0 19px 0 rgba(0, 0, 0, 0.29);
+  }
+}
+
+.technologyList__container {
+  @extend .container;
+}
+
+.technologyList__rows {
+  text-align: justify;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+
+  @include media-breakpoint-up('lg') {
+    margin-top: 135px;
+    margin-bottom: 20px;
+    max-width: none;
+  }
+}
+
+.technologyList__row {
+  display: inline;
+
+  @include media-breakpoint-up('lg') {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &:first-child {
+      justify-content: space-between;
+    }
+
+    &:nth-child(2) {
+      .technologyList__logo {
+        margin: 0 50px;
+      }
+    }
+  }
+
+  &--secondary {
+    justify-content: space-between;
+
+    @include media-breakpoint-up('lg') {
+      margin: 60px 0;
+    }
+
+    .technologyList__logo {
+      img {
+        margin-top: 35px;
+      }
+
+      @include media-breakpoint-up('lg') {
+        margin: 0 10px;
+
+        img {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+
+.technologyList__logo {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  height: 80px;
+
+  @include media-breakpoint-up('lg') {
+    width: auto;
+    height: auto;
+    display: block;
+  }
+
+  &:hover {
+    .technologyList__logo__image {
+      opacity: 1;
+    }
+  }
+
+  &--tooltip {
+    @include media-breakpoint-up('lg') {
+      position: relative;
+      width: 140px;
+      height: 104px;
+      border-radius: 4px;
+      border: solid 1px transparent;
+
+      &:hover {
+        border-color: rgba(255, 255, 255, 0.48);
+
+        .technologyList__logo__tooltip {
+          display: block;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.technologyList__logo__image {
+  opacity: 1;
+  max-width: 140px;
+
+  @include media-breakpoint-up('lg') {
+    opacity: 0.48;
+  }
+}
+
+.technologyList__logo__tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 14px 8px;
+  display: none;
+  font-size: 12px;
+  color: theme-color("light-green");
+  text-align: center;
+  line-height: 1.2;
+}
+
+.technologyList__logo__link {
+  width: 100%;
+  height: 100%;
+  display: block;
+}

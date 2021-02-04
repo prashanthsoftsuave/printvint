@@ -1,0 +1,189 @@
+.btn {
+  border-radius: 10px;
+  color: theme-color("white");
+  font-family: $body-font-family;
+  font-weight: bold;
+
+  &.btn-action {
+    display: block;
+    padding: 11px 20px;
+    color: theme-color("white");
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    background-color: theme-color("light-green");
+    border: none;
+    border-radius: 8px;
+
+    &:hover {
+      background-color: transparentize(theme-color("light-green"), 0.15);
+    }
+
+    &:focus {
+      box-shadow: none;
+      background-color: transparentize(theme-color("light-green"), 0.3);
+    }
+
+    &:disabled {
+      color: theme-color("gray-ford");
+      background-color: theme-color("gray-gainsboro");
+    }
+
+    @include media-breakpoint-up('lg') {
+      display: inline-block;
+      padding: 11px 30px 12px;
+      min-width: 177px;
+
+      &.aligncenter {
+        display: table;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  &.btn-action--white-bg,
+  &.btn-action--secondary-white-bg {
+    &:hover {
+      background-color: theme-color("green-christi");
+    }
+
+    &:focus {
+      background-color: theme-color("green-kelly");
+    }
+  }
+
+  &.btn-action--secondary {
+    background-color: transparent;
+    color: theme-color("light-green");
+    box-shadow: inset 0 0 0 1px theme-color("light-green");
+
+    &:hover {
+      box-shadow: none;
+    }
+
+    &:disabled {
+      background-color: $color-submenu-background;
+      box-shadow: inset 0 0 0 1px theme-color("gray-gainsboro");
+    }
+  }
+
+  &.nav-btn-white {
+    background-color: transparent;
+    border-color: theme-color("white");
+    padding: 3px 15px;
+    margin-top: 15px;
+
+    @include media-breakpoint-up('lg') {
+      margin-top: 0;
+      margin-left: 15px;
+    }
+
+    &:hover {
+      background-color: theme-color('light-green');
+      border-color: theme-color('light-green');
+
+      a {
+        color: theme-color("white");
+      }
+    }
+
+    a {
+      color: theme-color("white");
+      font-weight: 400;
+      font-size: 0.9em;
+
+      &:hover {
+        color: theme-color("diamanti");
+      }
+    }
+  }
+}
+
+.btn-tertiary {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: theme-color("light-green");
+  text-decoration: underline;
+
+  &:hover {
+    color: theme-color("green-christi");
+    text-decoration: underline;
+  }
+
+  &:active {
+    color: theme-color("green-kelly");
+  }
+}
+
+.btn-white {
+  background-color: transparent;
+  border-color: theme-color("white");
+
+  &:hover {
+    background-color: white;
+    color: theme-color("diamanti");
+    border-color: theme-color("white");
+  }
+}
+
+@each $label, $color in $theme-colors {
+  .bg-#{$label} .btn-white {
+    background-color: transparent;
+    border-color: theme-color("white");
+
+    &:hover {
+      background-color: theme-color("white");
+      color: $color;
+    }
+  }
+}
+
+.gform_button {
+  @extend .btn;
+  @extend .btn-light-green;
+}
+
+@mixin btn-play($color) {
+  height: 87px;
+  width: 87px;
+  border: 2px solid $color;
+  background-color: transparent;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-left: 19px solid $color;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 100ms ease-in-out;
+  }
+
+  &:hover::before {
+    border-top-width: 14px;
+    border-bottom-width: 14px;
+    border-left-width: 24px;
+  }
+}
+
+.btn-play_white {
+  @include btn-play(white);
+}
+
+.btn-play_orange {
+  @include btn-play(theme-color("orange"));
+}
+
+.btn + .btn {
+  margin-top: 10px;
+
+  @include media-breakpoint-up("lg") {
+    margin-top: 0;
+  }
+}

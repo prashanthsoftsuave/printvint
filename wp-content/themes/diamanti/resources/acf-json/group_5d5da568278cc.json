@@ -1,0 +1,56 @@
+{
+    "key": "group_5d5da568278cc",
+    "title": "TAXONOMY: MEDIA",
+    "fields": [
+        {
+            "key": "field_5d5da576d877b",
+            "label": "Color",
+            "name": "color",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "#2492C3": "Dark Blue (Default)",
+                "#024f71": "Blue",
+                "#4ac4e3": "Light Blue",
+                "#FF7500": "Orange",
+                "#93D500": "Green",
+                "#E43A5C": "Pink"
+            },
+            "default_value": [
+                "#808080"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "media"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "metabox_title": "",
+    "modified": 1595851363
+}

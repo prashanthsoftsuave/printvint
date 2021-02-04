@@ -1,0 +1,64 @@
+.staticMesh {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 1389px;
+  z-index: -1;
+  background-image: url("../images/mesh.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  opacity: 0.3;
+
+  @include media-breakpoint-up('lg') {
+    display: block;
+  }
+}
+
+.staticMesh--products {
+  background-position: left center;
+  left: -100px;
+}
+
+.staticMesh--resources {
+  background-position: left bottom;
+}
+
+.staticMesh--product-single {
+  background-image: url("../images/mesh--black.svg");
+  background-position: left bottom;
+  left: -100px;
+}
+
+.staticMesh--black {
+  background-image: url("../images/mesh--black.svg");
+  min-height: 1413px;
+  background-position: center top;
+  opacity: 0.8;
+}
+
+.interactiveMesh {
+  pointer-events: none;
+  opacity: 0.15;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 175%;
+
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+
+  svg {
+    width: 100%;
+    height: auto;
+
+    @include media-breakpoint-up(xl) {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}

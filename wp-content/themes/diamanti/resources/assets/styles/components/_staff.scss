@@ -1,0 +1,35 @@
+.staff-member {
+  margin-bottom: 5rem;
+
+  a {
+    h3 {
+      &:hover,
+      &:active {
+        color: theme-color('green');
+      }
+    }
+  }
+
+  h3 {
+    color: theme-color("dark");
+    font-size: 1.675rem;
+    margin-top: 1rem;
+    font-family: $headings-font-family;
+  }
+
+  strong {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: theme-color("dark");
+  }
+
+  img {
+    max-height: none;
+    border: 1px solid #aaa;
+  }
+
+  .fa {
+    font-size: 1.675rem;
+    margin: 0 0.5rem;
+  }
+}

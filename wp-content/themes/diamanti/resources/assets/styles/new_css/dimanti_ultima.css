@@ -1,0 +1,17 @@
+ #ultimaData .newHero__columns.newHero__columns--left {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#ultimaData .newHero__column {
+    width: 100%;
+}
+
+#ultimaData .newHero--product .newHero__image {
+    left: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#ultimaData .newHero__title {
+    text-transform: uppercase;
+}

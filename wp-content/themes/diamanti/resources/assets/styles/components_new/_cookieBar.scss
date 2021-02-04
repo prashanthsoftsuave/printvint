@@ -1,0 +1,89 @@
+.cc-banner {
+  .cookie-container {
+    position: relative;
+    max-width: 902px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .cc-btn {
+    @extend .btn;
+    @extend .btn-action;
+
+    max-width: 61px;
+    min-width: unset;
+    margin: 0;
+    padding: 5px 10px;
+    color: theme-color("white") !important;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: theme-color("light-green");
+  }
+
+  .cc-compliance {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50%, 0);
+  }
+}
+
+.cc-banner,
+.cc-floating {
+  &.cc-bottom {
+    display: flex;
+    justify-content: center;
+    background-color: theme-color("deep-blue");
+  }
+
+  .cc-message {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0;
+    color: theme-color("white");
+
+    a {
+      &:first-of-type {
+        color: theme-color("green-light");
+        font-weight: 400;
+      }
+    }
+
+    .cc-link {
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 14px;
+      opacity: 1;
+      color: theme-color("white");
+    }
+  }
+}
+
+.cc-window {
+  padding: 10px;
+
+  &.cc-floating.cc-bottom {
+    bottom: 0;
+    width: 100%;
+    max-width: unset;
+    padding: 29px 26px;
+    text-align: center;
+    background-color: transparentize(theme-color("deep-blue"), 0.1);
+
+    .cc-compliance {
+      margin: 0 auto;
+    }
+
+    .cc-btn {
+      background-color: transparent;
+      border: 2px solid theme-color("light-green");
+      padding: 10px 34px;
+      max-width: 122px;
+      margin: 20px auto 0;
+      color: theme-color("light-green");
+      font-weight: 600;
+      font-size: 16px;
+      border-radius: 10px;
+    }
+  }
+}

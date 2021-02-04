@@ -1,0 +1,70 @@
+.quoteBlock {
+  padding: 160px 0;
+  background-color: $color-text;
+  position: relative;
+  z-index: 1;
+
+  @include media-breakpoint-up('lg') {
+    padding: 208px 0 252px;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    min-width: 415px;
+    transform: translateX(-50%);
+    background-image: url(../images/white-shaped-background-mobile.svg);
+    background-size: cover;
+    z-index: -1;
+
+    @include media-breakpoint-up('lg') {
+      min-width: 3000px;
+      height: 1519px;
+      background-image: url(../images/white-shaped-background.svg);
+      background-color: transparent;
+    }
+  }
+}
+
+.quoteBlock__container {
+  @extend .container;
+
+  position: relative;
+  z-index: 2;
+}
+
+.quoteBlock__quote {
+
+}
+
+.quoteBlock__quote blockquote {
+  font-size: 32px;
+  line-height: normal;
+  text-align: center;
+  color: $color-link;
+  margin-bottom: 78px;
+
+  @include media-breakpoint-up('lg') {
+    font-size: 48px;
+  }
+}
+
+.quoteBlock__author {
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  color: $color-black;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.quoteBlock__logo {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 27px;
+}

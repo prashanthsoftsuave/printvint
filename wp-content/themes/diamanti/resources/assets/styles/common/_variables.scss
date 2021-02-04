@@ -1,0 +1,157 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$content-width: 970px;
+$tight-content-width: 780px;
+
+$diamanti-grad: linear-gradient(65deg, #024f71 7%, #010c24 88%);
+
+$theme-colors: (
+  "primary": #2a4759,
+  "diamanti": #2a4759,
+  "orange": #ff7500,
+  "danger": #ff7500,
+  "green": #12ce5b,
+  "green-light": #93d500,
+  "green-dark": #54b920,
+  "green-christi": #6ac613,
+  "green-kelly": #54b920,
+  "success": #12ce5b,
+  "light": #f1f2f5,
+  "dark": #2b2b2b,
+  "black": #070707,
+  "blue": #3794cd,
+  "dark-blue": #021327,
+  "light-blue": #2492c3,
+  "extra-light-blue": #4ac4e3,
+  "prussian-blue": #002859,
+  "congress-blue": #064b9d,
+  "white": #fff,
+  "white-smoke": #f4f4f4,
+  "white-smoke-tint": #f1f1f1,
+  "snow": #fbfbfb,
+  "gray": #313131,
+  "gray-light": #5f5f5f,
+  "gray-very-light": #b0b0b0,
+  "gray-dark": #e4e4e4,
+  "gray-dark-tints": #a4a4a4,
+  "gray-ford": #979797,
+  "gray-trolley": #808080,
+  "gray-gainsboro": #d8d8d8,
+  "silver": #bcbcbc,
+  "light-green": #93d500,
+  "dark-background": #2b2b2b,
+  "deep-blue": #024f71,
+  "dark-gray": #404040,
+  "graphite": #383838,
+  "milk-gray": #bababa,
+  "metalic-gray": #848484,
+);
+
+$color-black: #000;
+$color-text: #2b2b2b;
+$color-link: #2492c3;
+$color-link-hover: rgba(253, 253, 253, 0.9);
+$color-link-dark: #024f71;
+$color-submenu-background: #f7f7f9;
+$color-submenu-background-dark: #efeff3;
+$color-grey-light: #a8a8aa;
+$color-grey: #e7e7ed;
+$color-blue: #034f71;
+$color-code: #36f;
+$color-products-menu-background: #01425f;
+
+$header-cta-height: 40px;
+
+$header-height: 110px;
+$header-homepage-height: 150px;
+$header-homepage-no-cta-height: 110px;
+$header-product-height: 176px;
+
+$header-height-mobile: 58px;
+$search-input-height-mobile: 70px;
+$header-product-height-mobile: 116px;
+
+$products-menu-height: 66px;
+
+$body-font-family: "Open Sans", Arial, sans-serif;
+$headings-font-family: $body-font-family;
+
+@each $label, $color in $theme-colors {
+  .bg-#{$label} {
+    background-color: $color;
+    transition: all 200ms ease-in-out;
+  }
+}
+
+.bg-diamanti-grad {
+  opacity: 0.85;
+  background-image: $diamanti-grad;
+}
+
+@each $label, $color in $theme-colors {
+  section.bg-#{$label} + section.bg-#{$label} {
+    padding-top: 0;
+  }
+}
+
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+@mixin slick-arrows($size, $color) {
+  .slick-next,
+  .slick-prev {
+    height: $size;
+    width: $size;
+    border-right: 2px solid $color;
+    border-bottom: 2px solid $color;
+    transform: rotate(-45deg);
+    border-radius: 0;
+
+    &::before {
+      content: '';
+    }
+  }
+
+  .slick-next {
+    right: -40px;
+  }
+
+  .slick-prev {
+    transform: rotate(135deg);
+    left: -40px;
+  }
+}
+
+@mixin chevron($color: #fff, $size: 20px) {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.5ex;
+  position: relative;
+  cursor: pointer;
+
+  &::after {
+    content: '';
+    width: $size;
+    height: $size;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    transform: rotate(-45deg);
+    transition: transform ease 0.2s;
+    border-right: 2px solid $color;
+    border-bottom: 2px solid $color;
+    transform-origin: 50% 75%;
+  }
+}
+
+@mixin post-types-icon($types: ('post', 'page', 'resource', 'event', 'partner', 'news', 'job'), $post: 'search') {
+  @each $type in $types {
+    &--#{$type}::before {
+      background-image: url("../images/#{$post}-#{$type}-icon.svg");
+    }
+  }
+}

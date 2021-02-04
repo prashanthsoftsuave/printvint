@@ -1,0 +1,48 @@
+@import "common/variables";
+
+$fa-font-path: "~font-awesome/fonts/";
+$slick-loader-path: '~slick-carousel/slick/';
+$slick-font-path: '#{$slick-loader-path}fonts/';
+
+/** Import everything from autoload */
+@import "./autoload/**/*";
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss";
+@import "~featherlight/src/featherlight.css";
+@import "~font-awesome/scss/font-awesome";
+
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+// @import "~some-node-module";
+
+/** Import theme styles */
+@import "common/global";
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";
+@import "theme/global";
+@import "theme/forms";
+@import "components/section";
+@import "theme/section";
+@import "components/buttons";
+@import "theme/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/wp-classes";
+@import "components/post-grid";
+@import "components/story";
+@import "components/staff";
+@import "components/resources";
+@import "components/job";
+@import "components/search-filter";
+@import "components/primary_menu";
+@import "components_new/_components";
+@import "components_new/scrollmagic";
+@import "components_new/new_hero"

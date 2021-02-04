@@ -1,0 +1,36 @@
+.sidebar {
+  section {
+    padding: 0 0 0 2em;
+    border-left: 1px solid #bababa;
+    margin-bottom: 3.75em;
+  }
+
+  h5 {
+    text-transform: uppercase;
+    color: theme-color('green');
+    font-size: 1em;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style: none;
+      margin-bottom: 0.5em;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      a {
+        font-weight: 300;
+        color: theme-color("dark");
+
+        &:hover {
+          color: theme-color("green");
+        }
+      }
+    }
+  }
+}

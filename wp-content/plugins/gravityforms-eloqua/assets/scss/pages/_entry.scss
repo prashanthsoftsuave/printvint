@@ -1,0 +1,40 @@
+/**
+ * Entry Styles
+ */
+.gfeloqua-retry,
+.gfeloqua-false-positive {
+	font-weight: normal;
+}
+
+.gfeloqua-right {
+	float: right;
+	strong {
+		display: inline-block;
+		margin-right:10px;
+		line-height: 2.05;
+	}
+}
+
+.gfeloqua-limit-reached > span {
+	color: #ca192d;
+}
+
+.gfeloqua-entry-notes table thead th {
+	line-height: 2;
+}
+
+.gfeloqua-note-detail,
+.gfeloqua-debug-detail,
+.gfeloqua-advanced-debug {
+	background-color: #EEE;
+	max-height: 300px;
+	overflow: auto;
+	padding: 15px;
+}
+.gfeloqua-debug-toggle {
+	text-transform: uppercase;
+	float: right;
+	display: inline-block;
+	font-size: 11px;
+	text-decoration: none;
+}

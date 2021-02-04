@@ -1,0 +1,47 @@
+{
+    "key": "group_5dd2445ecd649",
+    "title": "Lock Header Background",
+    "fields": [
+        {
+            "key": "field_5dd2446da4ab6",
+            "label": "Lock Header Background",
+            "name": "lock_header_background",
+            "type": "true_false",
+            "instructions": "Keeps the background dark blue even when scrolled to top. Use when using a light background on the hero.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "format"
+    ],
+    "active": 1,
+    "description": "",
+    "metabox_title": "",
+    "modified": 1574062823
+}

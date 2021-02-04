@@ -1,0 +1,5 @@
+@include('blocks.newProductFeature', array('data' => array('type' => 'd20')))
+@include('blocks.productBenefits', array('data' => array('type' => 'spektra')))
+@include('blocks.newFeatureList')
+@include('blocks.newUseCase', array('data' => array('type' => 'd20')))
+@include('blocks.productResources')

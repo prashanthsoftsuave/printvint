@@ -1,0 +1,116 @@
+.event-page__events {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 33px;
+
+  &:not(.slick-slider) {
+    padding-top: 30px;
+  }
+
+  .result-card {
+    height: 100%;
+  }
+
+  .card {
+    justify-content: flex-start;
+    height: 100%;
+  }
+}
+
+.event-page__filters {
+  text-align: center;
+}
+
+.event-page__title {
+  padding: 60px 0 22px;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 24px;
+  text-align: center;
+  color: theme-color("deep-blue");
+}
+
+.event-page__item {
+  width: 100%;
+  padding-bottom: 20px;
+
+  @include media-breakpoint-up('lg') {
+    width: 33.33%;
+    padding: 0 10px 20px;
+  }
+}
+
+.event-page__item__img {
+  width: 100%;
+  height: auto;
+}
+
+.event-page__item__type {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 21px;
+  color: theme-color("gray-light");
+  text-transform: uppercase;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    transform: translate(0, -50%);
+    background-repeat: no-repeat;
+  }
+
+  @include post-types-icon($types: ('conferences', 'regional-events', 'webinars', 'other'), $post: 'event');
+}
+
+.event-page__item__title {
+  padding: 11px 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.25px;
+  color: theme-color("gray");
+}
+
+.event-page__item__date {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: theme-color("gray-trolley");
+}
+
+.event-page__item__time {
+  @extend .event-page__item__date;
+
+  font-weight: 400;
+}
+
+.event-page__webinars {
+  .event-page__item__link:focus {
+    outline: none;
+  }
+
+  .search-page-pagination {
+    display: none;
+  }
+
+  .slick-track {
+    display: flex;
+  }
+
+  .slick-slide {
+    height: inherit;
+    padding: 0 10px;
+  }
+
+  .slick-track {
+    padding: 30px 0;
+  }
+}
+

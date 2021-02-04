@@ -1,0 +1,63 @@
+<div class="container staff-members">
+    <div class="row">
+        {% for post in posts %}
+            <div class="staff-member {{ column }}">
+            {% if basicStaffIsModal %}
+                <a href="#" data-featherlight="#staff-{{ post.id }}">
+            {% endif %}
+                {% if post.thumbnail.src %}
+                    <img src="{{ post.thumbnail.src|resize(300,375) }}" class="img-fluid" alt="Image for {{ post.title }}" />
+                {% endif %}
+            {% if basicStaffIsModal %}
+                </a>
+            {% endif %}
+            {% if basicStaffIsModal %}
+                <a href="#" data-featherlight="#staff-{{ post.id }}">
+            {% endif %}
+                <h3 class="text-center">{{ post.title }}</h3>
+                {% if post.meta('title') %}
+                    <p class="text-center">{{ post.meta('title') }}</p>
+                {% endif %}
+                {% if post.meta('position') %}
+                    <p class="text-center"><strong>{{ post.meta('position') }}</strong></p>
+                {% endif %}
+            {% if basicStaffIsModal %}
+                </a>
+            {% endif %}
+            {% if post.meta('linkedin') or post.meta('twitter') %}
+                <p class="text-center">
+                    {% if post.meta('linkedin') %}<a href="{{ post.meta('linkedin') }}" target="_blank"><i class="fa fa-linkedin"></i></a>{% endif %}
+                    {% if post.meta('twitter') %}<a href="{{ post.meta('twitter') }}" target="_blank"><i class="fa fa-twitter"></i></a>{% endif %}
+                </p>
+            {% endif %}
+            {% if basicStaffIsModal %}
+                <div id="staff-{{ post.id }}" class="hide-popup staff-details">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                {% if post.thumbnail.src %}
+                                    <img src="{{ post.thumbnail.src('large') }}" class="img-fluid" alt="Image for {{ post.title }}" />
+                                {% endif %}
+                                {% if post.meta('linkedin') or post.meta('twitter') %}
+                                    {% if post.meta('linkedin') %}<a href="{{ post.meta('linkedin') }}" target="_blank"><i class="fa fa-linkedin"></i></a>{% endif %}
+                                    {% if post.meta('twitter') %}<a href="{{ post.meta('twitter') }}" target="_blank"><i class="fa fa-twitter"></i></a>{% endif %}
+                                {% endif %}
+                            </div>
+                            <div class="col-md-9">
+                                {{ post.title }}
+                                {% if post.meta('title') %}
+                                    <p><strong>{{ post.meta('title') }}</strong></p>
+                                {% endif %}
+                                {% if post.meta('position') %}
+                                    <p><strong>{{ post.meta('position') }}</strong></p>
+                                {% endif %}
+                                {{ post.content }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</div>

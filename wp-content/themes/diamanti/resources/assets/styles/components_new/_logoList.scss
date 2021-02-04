@@ -1,0 +1,44 @@
+.logoList {
+  background-color: theme-color("dark-background");
+  padding: 90px 0 98px;
+  position: relative;
+}
+
+.logoList__container {
+  @extend .container;
+}
+
+.logoList__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+.logoList__column {
+  padding: 0 37px 60px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include media-breakpoint-up('lg') {
+    width: auto;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+.logoList__logo__image {
+  max-width: 350px;
+}

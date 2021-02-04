@@ -1,0 +1,117 @@
+.btn {
+  font-family: $body-font-family;
+  border-radius: 0;
+  padding: 12px 44px;
+  //border: 2px solid transparent;
+  transition: all 200ms ease-out;
+
+  .light & {
+    color: white !important;
+  }
+
+  &.btn-action {
+    border-color: theme-color("orange");
+    color: theme-color("orange");
+    background-color: transparent;
+
+    &:hover {
+      background-color: theme-color("orange");
+      color: white;
+    }
+  }
+
+  &.nav-btn-white {
+    background-color: transparent;
+    border-color: white;
+    padding: 3px 15px;
+    margin-top: 15px;
+
+    @include media-breakpoint-up('lg') {
+      margin-top: 0;
+      margin-left: 15px;
+    }
+
+    &:hover {
+      background-color: theme-color('green');
+      border-color: theme-color('green');
+
+      a {
+        color: white !important;
+      }
+    }
+
+    a {
+      color: white;
+      font-weight: 400;
+      font-size: 0.9em;
+
+      &:hover {
+        color: theme-color("diamanti");
+      }
+    }
+  }
+}
+
+.btn-white {
+  background-color: transparent;
+  border-color: white;
+
+  &:hover {
+    background-color: white;
+    color: theme-color("diamanti") !important;
+    border-color: white;
+  }
+}
+
+@each $label, $color in $theme-colors {
+  .bg-#{$label} .btn-white {
+    background-color: transparent;
+    border-color: white;
+
+    &:hover {
+      background-color: white;
+      color: $color !important;
+    }
+  }
+}
+
+.gform_button {
+  @extend .btn;
+  @extend .btn-green;
+}
+
+@mixin btn-play($color) {
+  height: 87px;
+  width: 87px;
+  border: 2px solid $color;
+  background-color: transparent;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-left: 19px solid $color;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 100ms ease-in-out;
+  }
+
+  &:hover::before {
+    border-top-width: 14px;
+    border-bottom-width: 14px;
+    border-left-width: 24px;
+  }
+}
+
+.btn-play_white {
+  @include btn-play(white);
+}
+
+.btn-play_orange {
+  @include btn-play(theme-color("orange"));
+}

@@ -1,0 +1,462 @@
+{
+    "key": "group_5d77c4908e1a5",
+    "title": "[CPT] Resources",
+    "fields": [
+        {
+            "key": "field_5d77c4979c6fb",
+            "label": "Attached Media",
+            "name": "attached_media",
+            "type": "file",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5d77c4f8ba9c7",
+            "label": "Link Text",
+            "name": "link_text",
+            "type": "text",
+            "instructions": "If blank, defaults to \"Download Resource\"",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e4c5dc7aa1ff",
+            "label": "Gate this Asset",
+            "name": "gate_this_asset",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f96b2750c390",
+            "label": "Use Marketo Form",
+            "name": "use_marketo_form",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5e4c5debaa200",
+            "label": "Choose A Form",
+            "name": "choose_a_form",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e4c5dc7aa1ff",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "70",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "33": "451 Research Impact Report",
+                "62": "451 Research Paper: The Rising Wave of Stateful Container Applications in the Enterprise",
+                "52": "Amazon Lightning Campaign 2020",
+                "28": "Beta Request Secondary Form",
+                "27": "Beta Request Spektra",
+                "15": "Bootcamp Locations",
+                "1": "Contact Us",
+                "12": "Customer Referral",
+                "29": "Dell CAM Request",
+                "30": "Dell Quote Request",
+                "24": "Demo Request - HCI Challenge",
+                "26": "Demo Request - MS SQL Challenge",
+                "25": "Demo Request - Partner Solutions",
+                "31": "DevOps Days Road Show CDW",
+                "32": "DevOps Days Road Show CDW Dallas",
+                "35": "DevOps Days Road Show CDW Houston",
+                "60": "Diamanti and Pivot Webinar Reducing AWS",
+                "44": "Diamanti Monthly Kubernetes Webinar Intro to Containers and K8s ",
+                "57": "Diamanti Monthly Webinar Intel and Diamanti TCO",
+                "47": "Diamanti Monthly Webinar Security Considerations for Containerized Applications",
+                "53": "Diamanti Monthly Webinar Stateful Applications",
+                "40": "Diamanti Virtual Launch 20.4.15",
+                "41": "Diamanti Webinar Native12 20.5.19",
+                "43": "Diamanti Webinar Native12 Microservices 20.5.20",
+                "66": "Discovering Diamanti for Data Analytics (Splunk)",
+                "58": "Donuts with Diamanti",
+                "54": "Eloqua Test Webinar_20.05.12",
+                "39": "EMEA Launch 20.4.9",
+                "14": "Field Events - Meet Ups",
+                "34": "Gartner: How I&O Can Properly Deliver Kubernetes Support",
+                "63": "IDC Lab Validation Report: Diamanti Platform",
+                "67": "MongoDB + Diamanti: A Hyper-Accelerated Story",
+                "2": "Newsletter",
+                "46": "On-Demand - Diamanti EMEA Introduction & Overview",
+                "49": "On-Demand - Diamanti Monthly K8s Webinar - Intro - 4.23",
+                "45": "On-Demand - Diamanti Virtual Launch 20.4.15",
+                "48": "On-Demand -Monthly K8s webinar - April 23",
+                "38": "P1 and Diamanti Workshop Santa Monica",
+                "64": "Partner Webinar: Discover What’s New with Diamanti",
+                "3": "Request a Demo",
+                "4": "Request a Demo MENU",
+                "37": "TAP Registration Form",
+                "55": "Test_451 Research Impact Report (1)",
+                "10": "Webinar - 451 Group 18.7.18",
+                "8": "Webinar - NeuVector 18.6.7",
+                "59": "Webinar: Production Ready Elasticsearch",
+                "65": "Webinar: Selecciona la plataforma correcta",
+                "11": "Website - (3rd Party MKT) Asset Download 451 Research",
+                "9": "Website - (3rd Party MKT) Asset Download Gartner",
+                "7": "Website - (D10 Content) Asset Download",
+                "21": "Website - (House DB)Asset Download Gartner 2019 WP (modified)",
+                "23": "Website - Aqua webinar Form 19.6.6",
+                "20": "Website - Asset Download Gartner 2019 WP",
+                "18": "Website - Customer Referral Form",
+                "17": "Website - D10 Gated Asset Build Enterprise Kubernetes Infrastructure",
+                "16": "Website - D10 Gated Asset Choose Container Infrastructure",
+                "19": "Website - D10 Gated Asset ESG Bare-metal Container Platform",
+                "13": "Website - D10 Gated Asset VMs Vs Bare Metal",
+                "22": "Website - GDPR Page",
+                "42": "Website -Build vs Buy WP",
+                "56": "Website -Choosing the Right Infrastructure - Spanish",
+                "6": "Website Field Events"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5e4c641f5dcfa",
+            "label": "Form Title and Description",
+            "name": "title_and_description",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e4c5dc7aa1ff",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_5f96b2120c38f",
+            "label": "Marketo Form",
+            "name": "marketo_form_embed_code",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f96b2750c390",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5f96b419c9761",
+            "label": "Apply New Template",
+            "name": "show_in_new_template",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f96b435c9762",
+            "label": "Image Section",
+            "name": "image_section",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f96b419c9761",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5f96b48445db7",
+            "label": "Header Background Image",
+            "name": "header_background_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f96b419c9761",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium_large",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5f96b4bb45db8",
+            "label": "Webinar Date Text",
+            "name": "webinar_date_text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f96b419c9761",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f96b4e8a613c",
+            "label": "Show Speakers",
+            "name": "show_speakers",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f96b419c9761",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f96b518a613d",
+            "label": "Speaker Title",
+            "name": "speaker_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f96b419c9761",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f96b52da613e",
+            "label": "Speaker Sections",
+            "name": "speaker_sections",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "field_5e8ce87535943"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_5faa7a860c17d",
+            "label": "Contact Section",
+            "name": "contact_section",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f96b419c9761",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "field_5e88aed7f0681"
+            ],
+            "display": "group",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "resource"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "metabox_title": "",
+    "modified": 1605008096
+}

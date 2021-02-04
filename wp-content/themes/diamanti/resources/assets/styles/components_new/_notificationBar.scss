@@ -1,0 +1,169 @@
+$notification-bar-width: 48px;
+
+.notification-bar {
+  position: absolute;
+  display: flex;
+  right: $notification-bar-width;
+  top: 54px;
+  transform: translateX(100%);
+  transition: all 0.35s ease;
+  z-index: 999;
+
+  @include media-breakpoint-up('lg') {
+    top: 111px;
+  }
+
+  &.active {
+    right: 0;
+    transform: translateX(0);
+  }
+}
+
+.notification-bar__header {
+  display: flex;
+  align-items: center;
+  width: $notification-bar-width;
+  height: 370px;
+  background: linear-gradient(-180deg, theme-color("light-blue") 0%, theme-color("prussian-blue") 100%);
+  border-radius: 7px 0 0 7px;
+  cursor: pointer;
+}
+
+.notification-bar__header__caption {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400 !important;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: theme-color("white");
+  white-space: nowrap;
+  transform: rotate(90deg) translate(0%, 100%);
+}
+
+.notification-bar__content {
+  position: relative;
+  display: flex;
+  width: 100%;
+  background-color: theme-color("white");
+
+  .btn-action {
+    display: inline-block;
+  }
+}
+
+.notification-bar__close {
+  position: absolute;
+  right: 18px;
+  top: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    background-image: url('../images/close-icon-gray.svg');
+    transform: translate(25%, 25%);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.notification-bar__title {
+  margin-top: 50px;
+  margin-bottom: 11px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 42px;
+  color: theme-color("congress-blue");
+  text-transform: uppercase;
+
+  @include media-breakpoint-up('lg') {
+    margin-top: 48px;
+    margin-bottom: 11px;
+    font-size: 36px;
+    line-height: 47px;
+  }
+}
+
+.notification-bar__subtitle {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.25px;
+  color: theme-color("light-blue");
+
+  @include media-breakpoint-up('lg') {
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.525px;
+  }
+}
+
+.notification-bar__desc {
+  margin-bottom: 32px;
+  font-size: 14px;
+  line-height: 21px;
+  color: theme-color("congress-blue");
+
+  @include media-breakpoint-up('lg') {
+    margin-bottom: 43px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+.notification-bar__links {
+  margin-top: 23px;
+
+  @include media-breakpoint-up('lg') {
+    margin-top: 30px;
+  }
+
+  a {
+    display: block;
+
+    &:first-child {
+      padding-bottom: 25px;
+
+      @include media-breakpoint-up('lg') {
+        padding-bottom: 0;
+        padding-right: 30px;
+      }
+    }
+
+    @include media-breakpoint-up('lg') {
+      display: inline;
+    }
+  }
+}
+
+.notification-bar__col-image {
+  display: none;
+
+  @include media-breakpoint-up('lg') {
+    display: block;
+    padding-top: 7px;
+  }
+}
+
+.notification-bar__col-content {
+  padding-left: 30px;
+  padding-right: 83px;
+
+  @include media-breakpoint-up('lg') {
+    padding-right: 78px;
+    padding-left: 12px;
+  }
+}

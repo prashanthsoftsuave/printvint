@@ -1,0 +1,35 @@
+.ginput_container_select .gfield_select {
+  font-size: 16px;
+  height: auto;
+  border-radius: 0;
+  border: 1px solid theme-color("light");
+  color: theme-color("dark");
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 0.75em 50px 0.75em 1em !important;
+  background-image: url("../images/sort-arrows-couple-pointing-up-and-down.svg");
+  background-color: white;
+  background-position: calc(100% - 15px) 50%;
+  background-repeat: no-repeat;
+  background-size: 16px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'] {
+  margin-top: 1em;
+  padding: 0.75em !important;
+  font-size: 16px !important;
+  border: 1px solid theme-color("light");
+  color: theme-color("dark");
+}
+
+textarea {
+  padding: 0.75em 50px 0.75em 1em !important;
+  color: theme-color("dark");
+  border: 1px solid theme-color("light");
+}
+
+.gform_wrapper textarea {
+  font-size: 16px;
+}

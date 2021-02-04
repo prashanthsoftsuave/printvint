@@ -1,0 +1,199 @@
+{
+    "key": "group_5ef0649926755",
+    "title": "PRODUCT ANNOUNCEMENT: Content Blocks",
+    "fields": [
+        {
+            "key": "field_5ef064ba41b9d",
+            "label": "Content Blocks",
+            "name": "cb",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_5ef087f8c6c44": {
+                    "key": "layout_5ef087f8c6c44",
+                    "name": "new_cta",
+                    "label": "CTA Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ef0880cc6c45",
+                            "label": "CTA section",
+                            "name": "cta_section",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5e88aee36bda2"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5ef1d450bfac4": {
+                    "key": "layout_5ef1d450bfac4",
+                    "name": "benefits_section",
+                    "label": "Benefits section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ef1d45ebfac5",
+                            "label": "Benefits section",
+                            "name": "benefits_section",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5ef1d2e3c6066"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5ef465313c25d": {
+                    "key": "layout_5ef465313c25d",
+                    "name": "products_information",
+                    "label": "Products Information Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ef4658d3c25e",
+                            "label": "Products Information Section",
+                            "name": "products_information_section",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5e8cd658a0d23"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5ef47111729a1": {
+                    "key": "layout_5ef47111729a1",
+                    "name": "product_resources",
+                    "label": "Product Resources Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ef47134729a2",
+                            "label": "Product Resources",
+                            "name": "product_resources",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5e8dfccca1e59"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5ef5bd202a565": {
+                    "key": "layout_5ef5bd202a565",
+                    "name": "product_features",
+                    "label": "Product Feature List Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ef5bd2b2a566",
+                            "label": "Product Feature List Section",
+                            "name": "product_feature_list",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5e8de7ab3a271"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "metabox_title": "",
+    "modified": 1593164357
+}

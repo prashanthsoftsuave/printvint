@@ -1,0 +1,599 @@
+.page-id-701 #homescrollv81{
+  display: block !important;
+  padding: unset !important;
+}
+
+
+#n2-ss-2{ height:80vh !important;}
+.page-id-701 #n2-ss-2-align {
+  margin-top: -110px;
+}
+@media (max-height : 726px) {
+  #n2-ss-2{ height:auto !important;}
+}
+
+
+
+
+@media (max-width: 767px) {
+  .maxH {
+    max-height: 40px;
+    min-height: 39px;
+    max-width: 100px !important;
+  }
+
+}
+
+
+.maxH {
+  max-width: 150px !important;
+  max-height: 60px;
+  min-height: 48px;
+}
+.imgCoustome{
+  text-align: center;
+  width: auto;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 30px 20px;
+  overflow-x: auto;
+  /*background: rgb(213, 230, 245);*/
+  background: #ffffff;
+  /*padding: unset;*/
+}
+.page-id-701 .partner_cards_section{
+  padding: 80px 0 120px !important;
+}
+
+@media (max-width: 980px){
+  .imgCoustome .logosc{
+    padding:15px;
+    }}
+    .sliderdesk2 .n2-ss-slider-2.n2-ow {
+      background-repeat: no-repeat !important;
+    }
+
+
+    #homeBannerBoxSec {
+      display: none;
+    }
+
+    .page-id-701 #homeBannerBoxSec {
+      display: block;
+      margin: 0 39px 0 52px;
+    }
+
+    .page-id-701 #homeBannerBoxSec .home_box-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 40px;
+      margin-top: 30px;
+    }
+
+    .page-id-701 #homeBannerBoxSec .box-card {
+      width: 100%;
+      padding: 20px;
+      background-color: transparent;
+      border: 1px solid #ffffff;
+      font-size: 14px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.57;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .page-id-701 .diamanti_propels_div {
+      position: relative;
+      margin: 50px 39px 0 52px;
+      display: block;
+    }
+
+    .page-id-701 .diamanti_propels_div .heading {
+      color: #2492c3;
+      font-size: 20px;
+      margin-bottom: 30px;
+      font-family: Open Sans;
+      font-weight: 600;
+    }
+
+    ol.diamanti_propels_list {
+      padding: 0 !important;
+    }
+
+    .page-id-701 .diamanti_propels_list li.list-item {
+      position: relative;
+      margin-bottom: 20px;
+      font-family: Open Sans;
+      font-size: 19px;
+      font-weight: 600;
+      text-indent: 0px;
+      display: flex;
+      align-items: center;
+      line-height: 28px;
+    }
+
+    .page-id-701 li.list-item::before {
+      display: none;
+    }
+
+    /*css*/
+    .page-id-701 .newHero {
+      padding-bottom: 0px !important;
+    }
+
+    .page-id-701 .tabs_with_bg .section_tabs {
+      padding-top: 0 !important;
+      padding-bottom: 0px;
+    }
+
+
+    @media (max-width: 767px) {
+      .page-id-701 .diamanti_propels_div .heading {
+        text-align: center;
+        line-height: 30px;
+      }
+
+      .page-id-701 .diamanti_propels_div {
+        position: relative;
+        margin: 0;
+        margin-top: 45px;
+      }
+
+      .page-id-701 ol.diamanti_propels_list {
+        padding: 0;
+        display: flex;
+        flex-flow: column;
+        position: relative;
+        margin-bottom: -30px;
+      }
+
+      .page-id-701 .diamanti_propels_list li.list-item {
+        position: relative;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 55px;
+        text-align: center;
+        line-height: 28px;
+        padding-left: 0px;
+        padding: 0;
+      }
+
+      .page-id-701 .diamanti_propels_list li.list-item::before {
+        text-indent: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+
+      .why-hero-buttons .contact-btn {
+        background-color: #93d500;
+        width: 150px;
+        height: 48px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      .why-hero-buttons .req-demo-btn {}
+
+      .stat-section {
+        padding: 86px 0 99px;
+      }
+      .why-hero-buttons .contact-btn {
+        background-color: #93d500;
+        width: 150px;
+        height: 48px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      .why-hero-buttons .req-demo-btn {}
+
+      .stat-section {
+        padding: 86px 0 99px;
+      }
+      .why-hero {
+        background-image: url(/wp-content/uploads/2020/10/201989_Diamanti_WhyPage_Assets_R3.2_EL1920x600-Tunnel-Blue-1.png);
+        padding: 64px 0;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center center;
+        background-color: #000;
+        min-height:600px;
+      }
+
+      .why-hero-title {
+        font-size: 50px;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-style: italic;
+        line-height: 42px;
+        padding: 0 0 24px;
+        letter-spacing: -4px;
+        margin: 0;
+        color: #f7f7f9;
+      }
+      .why-hero-buttons .why-hero-btn.contact-btn:hover {
+        color: #fff;
+        background-color: #6ac613;
+      }
+      .why-hero-buttons .why-hero-btn.contact-btn:focus {
+        color: #fff;
+        background-color: red;
+      }
+
+      .why-hero-btn.btn-action {
+        color: #fff;
+      }
+
+      .why-hero-btn.btn-outline {
+        color: #fff !important;
+        height: 50px;
+        display: flex;
+        border-radius: 8px;
+        border: solid 1.5px #ffffff;
+        width: 190px;
+        text-align: center;
+        padding: 0;
+        justify-content: center;
+        font-weight: 600;
+        align-items: center;
+      }
+
+      .why-hero-text {
+        font-size: 16px;
+        color: #fff;
+        line-height: 24px;
+        margin-bottom: 28px;
+        letter-spacing: normal;
+      }
+
+      .why-hero-buttons {
+        padding: 15px 0 0;
+        display: flex;
+      }
+
+      .why-hero-content {
+        width: 65%;
+        max-width: 630px;
+      }
+
+      .why-hero-buttons .why-hero-btn.contact-btn {
+        height: 50px;
+        width: 190px;
+        display: flex;
+        min-width: 146px;
+        color: #fff;
+        margin-right: 40px;
+      }
+      @media only screen and (max-width: 767px) {
+        .why-hero-content {
+          width: 100%;
+          padding: 0px 15px;
+        }
+        .why-hero-buttons {
+          padding: 56px 0 0;
+        }
+        .why-hero-text {
+          margin-bottom: 0;
+        }
+        .why-hero-buttons {
+          padding: 56px 0 0;
+          flex-flow: column;
+        }
+        .why-hero-buttons .why-hero-btn.contact-btn{
+          width: 100%;
+          margin-right: 0;
+        }
+        a.why-hero-btn.btn.btn-outline.req-demo-btn {
+          margin-top: 9px;
+          margin-bottom: 5px;
+          border-radius: 8px;
+        }
+
+        .why-hero-buttons .why-hero-btn {
+          margin-right: 0;
+          margin-bottom: 15px;
+          color: #fff !important;
+          width: 100%;
+        }
+        .why-hero-title {
+          padding: 0;
+          position: relative;
+          left: -5px;
+          padding-bottom: 30px;
+        }
+        .why-hero{
+          padding: 33px 0;
+          background-position: 63.3% center;
+          background-image: url(/wp-content/uploads/2020/10/201989_Diamanti_WhyPage_Assets_R3.2_EL1920x600-Tunnel-Blue-1.png);
+        }
+        .why-cta-section{
+          padding: 0;
+        }
+        .why-cta-section .ctaBlock__title{
+          margin-bottom: 0;
+        }
+      }
+      .page-id-701 #hero-vs {
+        display: block !important;
+        padding: unset;
+      }
+      .page-id-701 #homebannersectionse1 {
+        display: none;
+      }
+      .custom_container {
+        max-width: 970px;
+        margin: auto;
+      }
+      .page-id-701 header.banner.header.top {
+        background: unset;
+      }
+      .page-id-701 .why-hero{
+        margin-top: -121px;
+        padding-top: 175px;
+
+      }
+      .page-id-701 #hero-vs a.why-hero-btn.btn.btn-outline.req-demo-btn {
+        background: #404040;
+        border: #404040;
+      }
+      .page-id-701 #hero-vs a.why-hero-btn.btn.btn-action.contact-btn {
+        color: #000;
+      }
+      .page-id-701 #hmscroll {
+        display: block !important;
+      }
+      .page-id-701 #hmscroll2 {
+        display: block !important;
+      }
+      .page-id-701 h1.diamanti_hscrol-title {
+        font-size: 35px;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-style: italic;
+        line-height: 42px;
+        /* padding: 0 0 24px; */
+        letter-spacing: normal;
+        margin: 0;
+      }
+      .page-id-701 h6.diamanti_hscrol-sub-title{
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-style: italic;
+        line-height: 42px;
+        padding: 0 0 15px;
+        margin: 0;
+
+      }
+      .page-id-701 #hero-vs a.why-hero-btn.btn.btn-action.contact-btn:hover {
+        color: #fff;
+      }
+      .diamanti_hscroll_btn:after{
+        content: "";
+        width: 7px;
+        height: 7px;
+        display: inline-block;
+        position: relative;
+        top: -2px;
+        margin-top: 9px;
+        left: 10%;
+        -webkit-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-transition: -webkit-transform .2s ease;
+        transition: -webkit-transform .2s ease;
+        -o-transition: -o-transform .2s ease;
+        transition: transform .2s ease;
+        transition: transform .2s ease,-webkit-transform .2s ease,-o-transform .2s ease;
+        border-right: 2px solid #2492c3;
+        border-bottom: 2px solid #2492c3;
+        -webkit-transform-origin: 50% 75%;
+        -o-transform-origin: 50% 75%;
+        transform-origin: 50% 75%;
+      }
+      .diamanti_hscroll_btn2:after{
+        content: "";
+        width: 7px;
+        height: 7px;
+        display: inline-block;
+        position: relative;
+        top: -2px;
+        margin-top: 9px;
+        left: 10%;
+        -webkit-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-transition: -webkit-transform .2s ease;
+        transition: -webkit-transform .2s ease;
+        -o-transition: -o-transform .2s ease;
+        transition: transform .2s ease;
+        transition: transform .2s ease,-webkit-transform .2s ease,-o-transform .2s ease;
+        border-right: 2px solid #2492c3;
+        border-bottom: 2px solid #2492c3;
+        -webkit-transform-origin: 50% 75%;
+        -o-transform-origin: 50% 75%;
+        transform-origin: 50% 75%;
+      }
+      .page-id-701 #hmscroll {
+        background-image: linear-gradient(#d7e1ec, #edf2f7);
+        /*padding: unset;*/
+      }
+      .page-id-701 #hmscroll2 {
+        background-image: linear-gradient(#d7e1ec, #edf2f7);
+        /*padding: unset;*/
+      }
+
+      .page-id-701 #hero-vs a.why-hero-btn.btn.btn-outline.req-demo-btn:hover {
+        background-color: rgba(147,213,0,.85) !important;
+      }
+      @media (min-width:991px){
+        #hmscroll .diamanti_hmscrol {
+          display: grid;
+          grid-template-columns: 50% 50%;
+          }#hmscroll2 .diamanti_hmscrol {
+           display: grid;
+           grid-template-columns: 60% 40%;
+           }}
+           .page-id-701 #hmscroll .diamanti_hscrol_right {
+            margin: auto;
+          }
+          .page-id-701 #hmscroll2 .diamanti_hscrol_right {
+            margin: auto;
+          }
+
+          @media (max-width:990px){
+            #hero-vs a.why-hero-btn.btn.btn-outline.req-demo-btn {
+              margin-top: unset;
+            }
+            .page-id-701 #hmscroll .diamanti_hscrol_right img {
+              width: 100%;
+            }
+            .page-id-701 #hmscroll2 .diamanti_hscrol_right img {
+              width: 100%;
+              }}
+              .page-id-701 #hmscroll2 {
+                margin-bottom: -250px;
+                padding-bottom: 270px;
+              }
+              @media (min-width: 980px)  {
+
+                #dscrollv3mb{
+                  display: none;
+                  } }
+                  .newHero--default .newHero__caption {
+                    font-size: 30px;
+                    line-height: 1.75em;
+                  }
+                  .cityimgpara p {
+                    font-weight: 600 !important;
+                  }
+           
+
+                  @media (min-width: 991px){
+
+                  }
+                  .diamanti_dscrollv3mb_right img {
+                    width: 85%;
+                    padding-top: 60px;
+                  }
+                  .page-id-701 h6.diamanti_dscrollv3-sub-title {
+                    font-size: 16px;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    font-style: italic;
+                    line-height: 42px;
+                    padding: 0 0 15px;
+                    margin: 0;
+                    /*position: relative;*/
+                    /*top: -155px;*/
+                    text-align: left;
+                  }
+                  .diamanti_dscrollv3-para{
+                    background: #ffffff;
+                    margin-top: 5px;
+                    padding: 15px;
+                    border-radius: 5px;
+                    /*position: relative;*/
+                    /*top: -111px;*/
+                    text-align: left;
+                  }
+                  .page-id-701 #homescrollv8 {
+                    padding: unset;
+                    display: block !important;
+                    margin-bottom: -250px;
+                    padding-bottom: 250px;
+                    background-color: #fff;
+                  }
+                  /*.n2-ss-layer.n2-ow {*/
+                    /*    margin: unset !important;*/
+                    /*}*/
+                    #spektraKeyBenefit .productFeatures__col img {
+                      margin: auto;
+                    }
+                    @media(max-width: 1400px) and (min-width: 1100px){
+                      #n2-ss-6-align .n2-ow .diamanti_dscrollv3-title {
+                        font-size: 30px !important;
+                      }
+                      #n2-ss-6-align .n2-ss-layer-row #n2-ss-6item5 {
+                        font-size: 30px !important;
+                      }
+                      #n2-ss-6-align #n2-ss-6item3{
+                        font-size: 30px !important;
+                      }
+                      .scrollimgse1{
+                        height: 45vh !important;
+                      }
+                      .homescrls3txt .diamanti_dscrollv3-para{
+                        font-size: 16px !important;
+                      }
+                    }
+                    @media (min-width: 480px){
+                      .page-id-701 .dscrollms {
+                        display: block !important;
+                        }}
+                        @media (max-width: 480px){
+                          .page-id-701 .dscrollmsmb {
+                           display: block !important;
+                           }}
+                           /* splunk page css */
+                           .page-id-12441 .newHero__button.btn.btn-action {
+                            height: 50px;
+                            width: 170px;
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            min-width: 146px;
+                            padding: 0;
+                            color: black;
+                          }
+                          .page-id-12441 a.newHero__button.btn.btn-action.contact-Sales {
+                            display: none;
+                          }
+                          .page-id-12441 a.newHero__button.btn.btn-action.contact-Sales{
+                            background-color: #6ac613 !important;
+                            color: black;
+                          }
+                          .page-id-12441 a.newHero__button.newHero__second-button.btn.btn-action.btn-action--secondary {
+                            /*background: #ffffff;*/
+                            width: 190px;
+                            border: solid 1.5px #93d501;
+                            color: #ffffff;
+                          }
+                          .page-id-12441 a.newHero__button.newHero__second-button.btn.btn-action.btn-action--secondary:hover {
+                            background-color: #6ac613 !important;
+                          }
+                          .page-id-12441 p.newHero__caption.The-best-platform-fo {
+                            line-height: normal;
+                            font-size: 24px !important;
+                          }
+                          @media (min-width: 480px) {
+
+                            .page-id-701 .dscrollmsmb {
+                              display: block !important;
+                            }
+                          }}
+                          .dscrollmsmb{
+                              background: #D4E5F5FF;
+                              padding: unset !important;
+                          }
+
+                          
+                          

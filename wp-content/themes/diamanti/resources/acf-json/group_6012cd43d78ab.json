@@ -61,9 +61,9 @@
     "location": [
         [
             {
-                "param": "page",
+                "param": "page_type",
                 "operator": "==",
-                "value": "7086"
+                "value": "front_page"
             }
         ]
     ],
@@ -76,5 +76,5 @@
     "active": true,
     "description": "",
     "metabox_title": "",
-    "modified": 1612441664
+    "modified": 1612455748
 }

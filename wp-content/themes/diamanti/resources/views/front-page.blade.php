@@ -7,6 +7,7 @@
     @include('blocks.client-logo')
     @include('blocks.home_smartslider')
     @include('blocks.scrollmagic')
+    @include('blocks.partnertabs')
     @include('partials.content-page')
     @endwhile
 @endsection

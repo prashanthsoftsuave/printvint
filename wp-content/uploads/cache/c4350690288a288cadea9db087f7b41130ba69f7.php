@@ -5,6 +5,7 @@
     <?php echo $__env->make('blocks.client-logo', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     <?php echo $__env->make('blocks.home_smartslider', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     <?php echo $__env->make('blocks.scrollmagic', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    <?php echo $__env->make('blocks.partnertabs', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     <?php echo $__env->make('partials.content-page', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     <?php endwhile; ?>
 <?php $__env->stopSection(); ?>

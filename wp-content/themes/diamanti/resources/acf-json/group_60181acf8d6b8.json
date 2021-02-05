@@ -477,9 +477,14 @@
     "style": "default",
     "label_placement": "top",
     "instruction_placement": "label",
-    "hide_on_screen": "",
+    "hide_on_screen": [
+        "discussion",
+        "comments",
+        "format",
+        "send-trackbacks"
+    ],
     "active": true,
     "description": "",
     "metabox_title": "",
-    "modified": 1612203435
+    "modified": 1612467643
 }

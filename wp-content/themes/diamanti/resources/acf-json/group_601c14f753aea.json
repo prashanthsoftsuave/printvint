@@ -1,0 +1,24 @@
+{
+    "key": "group_601c14f753aea",
+    "title": "test home",
+    "fields": [],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "metabox_title": "",
+    "modified": 1612453122
+}

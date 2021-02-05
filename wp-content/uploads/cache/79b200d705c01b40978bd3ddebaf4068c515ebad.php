@@ -1,9 +1,5 @@
-<?php if($newTabsBlock): ?>
-    <?php ($hash = uniqid()); ?>
-    <section class="section newSection">
-        
-        
-       <?php if ( have_rows( 'partner_tabs' ) ) : ?>
+<section id="newpartnertabs" style="margin-bottom:-40px;padding:unset;">
+<?php if ( have_rows( 'partner_tabs' ) ) : ?>
 	<?php while ( have_rows( 'partner_tabs' ) ) :
 		the_row(); ?>
 
@@ -173,12 +169,5 @@
         
 
 	<?php endwhile; ?>
-<?php endif; ?> 
-        
-
-
-    </section>
-<?php else: ?>
-    <p class="alert-danger text-center m-5">There are no sections to display</p>
 <?php endif; ?>
-
+</section>

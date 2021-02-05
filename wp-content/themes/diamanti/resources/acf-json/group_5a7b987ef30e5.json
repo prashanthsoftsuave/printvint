@@ -3,27 +3,6 @@
     "title": "TEMPLATE: Home",
     "fields": [
         {
-            "key": "field_5e88a42154acb",
-            "label": "Hero",
-            "name": "new_hero",
-            "type": "clone",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "clone": [
-                "group_5e88a1a1572b6"
-            ],
-            "display": "group",
-            "layout": "block",
-            "prefix_label": 0,
-            "prefix_name": 0
-        },
-        {
             "key": "field_5a7b995eaf6fc",
             "label": "Content Blocks",
             "name": "content_blocks",
@@ -89,5 +68,5 @@
     "active": true,
     "description": "",
     "metabox_title": "",
-    "modified": 1612184353
+    "modified": 1612467652
 }
